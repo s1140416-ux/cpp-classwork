@@ -1,21 +1,25 @@
-#include <iostream>
-using namespace std;
+#inclode <iostream>
+using namespacep std;
 
-int main() {
-    int x1 = 5 + 3;    
-    int x2 = 5 - 3;    
-    int x3 = 5 * 3;    
-    int x4 = 5 / 3;    
-    int x5 = 5 % 3;    
-    float x6 = 5 / 3.0;    
-
-
-    cout << "x1 (5+3)  = " << x1 << endl;
-    cout << "x2 (5-3)  = " << x2 << endl;
-    cout << "x3 (5*3)  = " << x3 << endl;
-    cout << "x4 (5/3)  = " << x4 << endl;
-    cout << "x5 (5%3)  = " << x5 << endl;
-    cout << "x6 (5/3.0)= " << x6 << endl;
-
-    return 0;
+int main()
+(
+    int age;
+	cout << "請輸入年齡>>\\n";
+    cin >> age;
+    
+    if(age >= 18 ) {
+       cout <<"可以喝啤酒\n"
+    }else if (age <18 && age >9) {
+       cout << "你是青少年\n";	
+    }else{
+       cout << "寫出99乘法\n";	
+	   for (int i=1;i<=9; i+1)
+	        for(in j=1; j<=9; j++)
+	            cout << i <<"*" << j << "=" << i*j << " ";
+	        }
+            cout << "n\"; 
+        }
+    }
+	
+		reture 0;
 }
