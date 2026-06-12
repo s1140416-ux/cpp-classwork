@@ -1,25 +1,13 @@
-#inclode <iostream>
-using namespacep std;
+#include <iostream>
+using namespace std;
 
 int main()
-(
-    int age;
-	cout << "請輸入年齡>>\\n";
-    cin >> age;
-    
-    if(age >= 18 ) {
-       cout <<"可以喝啤酒\n"
-    }else if (age <18 && age >9) {
-       cout << "你是青少年\n";	
-    }else{
-       cout << "寫出99乘法\n";	
-	   for (int i=1;i<=9; i+1)
-	        for(in j=1; j<=9; j++)
-	            cout << i <<"*" << j << "=" << i*j << " ";
-	        }
-            cout << "n\"; 
-        }
-    }
-	
-		reture 0;
+{
+    double catweight [6] = {11.2, 10.8, 10.4, 11.5, 12.0, 13.0}
+    double sum = 0
+    for(int i = 0; 1<= 5; i++) {
+	    sum = sum +catweight[1];
+ 
+}
+    return 0;
 }
